@@ -19,7 +19,7 @@ def try_array(msg_data, slot):
             length -= 32
         return True, arr
     except Exception as e:
-        print('Debug', e)
+        pass
     return False, []
 
 def main():
